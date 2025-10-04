@@ -46,19 +46,30 @@ int main(int argc, char** argv) {
             execution += execution_temp;
             simulation_time = simulation_time_temp;
 
-            execution += std::to_string(simulation_time) + ", " + std::to_string(isr_time) + " SYSCALL: run the ISR for device " + std::to_string(duration_intr) + "\n";
-            simulation_time += isr_time;
+            execution += std::to_string(simulation_time) + ", " + std::to_string(delays[duration_intr]) + " SYSCALL: run the ISR for device " + std::to_string(duration_intr) + "\n";
+            simulation_time += delays[duration_intr];
 
             execution += std::to_string(simulation_time) + ", " + std::to_string(isr_time) + " transfer data from device to memory\n";
             simulation_time += isr_time;
 
-            int wait_time = delays[duration_intr];
-            execution += std::to_string(simulation_time) + ", " + std::to_string(wait_time) + " check for errors\n";
+            execution += std::to_string(simulation_time) + ", " + std::to_string(isr_time) + " check for errors\n";
+            simulation_time += isr_time;
+
+            execution += std::to_string(simulation_time) + ", " + std::to_string(1) + " IRET\n";
+            simulation_time++;
 
         }
 
         else if (activity == "END_IO") {
             auto [execution_temp, simulation_time_temp] = intr_boilerplate(simulation_time, duration_intr, context_time, vectors);
+            execution += execution_temp;
+            simulation_time = simulation_time_temp;
+
+            execution += std::to_string(simulation_time) + ", " + std::to_string(delays[duration_intr]) + " END I/O\n";
+            simulation_time += delays[duration_intr];
+
+            execution += std::to_string(simulation_time) + ", " + std::to_string(1) + "IRET\n";
+            simulation_time++;
         }
 
         /************************************************************************/
