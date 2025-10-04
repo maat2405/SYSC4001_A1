@@ -3,179 +3,209 @@
 52, 10, context saved
 62, 1, find vector 14 in memory position 0x001C
 63, 1, load address 0X0165 into the PC
-64, 39, CPU Burst
-103, 72, CPU Burst
-175, 1, switch to kernel mode
-176, 10, context saved
-186, 1, find vector 19 in memory position 0x0026
-187, 1, load address 0X0765 into the PC
-188, 28, CPU Burst
-216, 32, CPU Burst
-248, 1, switch to kernel mode
-249, 10, context saved
-259, 1, find vector 7 in memory position 0x000E
-260, 1, load address 0X00BD into the PC
-261, 25, CPU Burst
-286, 11, CPU Burst
-297, 1, switch to kernel mode
-298, 10, context saved
-308, 1, find vector 16 in memory position 0x0020
-309, 1, load address 0X02DF into the PC
-310, 54, CPU Burst
-364, 96, CPU Burst
-460, 1, switch to kernel mode
-461, 10, context saved
-471, 1, find vector 8 in memory position 0x0010
-472, 1, load address 0X06EF into the PC
-473, 54, CPU Burst
-527, 77, CPU Burst
-604, 1, switch to kernel mode
-605, 10, context saved
-615, 1, find vector 11 in memory position 0x0016
-616, 1, load address 0X01F8 into the PC
-617, 33, CPU Burst
-650, 60, CPU Burst
-710, 1, switch to kernel mode
-711, 10, context saved
-721, 1, find vector 16 in memory position 0x0020
-722, 1, load address 0X02DF into the PC
-723, 21, CPU Burst
-744, 19, CPU Burst
-763, 1, switch to kernel mode
-764, 10, context saved
-774, 1, find vector 2 in memory position 0x0004
-775, 1, load address 0X0695 into the PC
-776, 26, CPU Burst
-802, 38, CPU Burst
-840, 1, switch to kernel mode
-841, 10, context saved
-851, 1, find vector 16 in memory position 0x0020
-852, 1, load address 0X02DF into the PC
-853, 28, CPU Burst
-881, 65, CPU Burst
-946, 1, switch to kernel mode
-947, 10, context saved
-957, 1, find vector 16 in memory position 0x0020
-958, 1, load address 0X02DF into the PC
-959, 88, CPU Burst
-1047, 100, CPU Burst
-1147, 1, switch to kernel mode
-1148, 10, context saved
-1158, 1, find vector 17 in memory position 0x0022
-1159, 1, load address 0X05B3 into the PC
-1160, 28, CPU Burst
-1188, 25, CPU Burst
-1213, 1, switch to kernel mode
-1214, 10, context saved
-1224, 1, find vector 1 in memory position 0x0002
-1225, 1, load address 0X029C into the PC
-1226, 21, CPU Burst
-1247, 25, CPU Burst
-1272, 1, switch to kernel mode
-1273, 10, context saved
-1283, 1, find vector 19 in memory position 0x0026
-1284, 1, load address 0X0765 into the PC
-1285, 34, CPU Burst
-1319, 34, CPU Burst
-1353, 1, switch to kernel mode
-1354, 10, context saved
-1364, 1, find vector 8 in memory position 0x0010
-1365, 1, load address 0X06EF into the PC
-1366, 59, CPU Burst
-1425, 44, CPU Burst
-1469, 1, switch to kernel mode
-1470, 10, context saved
-1480, 1, find vector 15 in memory position 0x001E
-1481, 1, load address 0X0584 into the PC
-1482, 51, CPU Burst
-1533, 87, CPU Burst
-1620, 1, switch to kernel mode
-1621, 10, context saved
-1631, 1, find vector 11 in memory position 0x0016
-1632, 1, load address 0X01F8 into the PC
-1633, 65, CPU Burst
-1698, 48, CPU Burst
-1746, 1, switch to kernel mode
-1747, 10, context saved
-1757, 1, find vector 16 in memory position 0x0020
-1758, 1, load address 0X02DF into the PC
-1759, 51, CPU Burst
-1810, 37, CPU Burst
-1847, 1, switch to kernel mode
-1848, 10, context saved
-1858, 1, find vector 1 in memory position 0x0002
-1859, 1, load address 0X029C into the PC
-1860, 18, CPU Burst
-1878, 11, CPU Burst
-1889, 1, switch to kernel mode
-1890, 10, context saved
-1900, 1, find vector 2 in memory position 0x0004
-1901, 1, load address 0X0695 into the PC
-1902, 46, CPU Burst
-1948, 33, CPU Burst
-1981, 1, switch to kernel mode
-1982, 10, context saved
-1992, 1, find vector 12 in memory position 0x0018
-1993, 1, load address 0X03B9 into the PC
-1994, 75, CPU Burst
-2069, 88, CPU Burst
-2157, 1, switch to kernel mode
-2158, 10, context saved
-2168, 1, find vector 18 in memory position 0x0024
-2169, 1, load address 0X060A into the PC
-2170, 29, CPU Burst
-2199, 28, CPU Burst
-2227, 1, switch to kernel mode
-2228, 10, context saved
-2238, 1, find vector 1 in memory position 0x0002
-2239, 1, load address 0X029C into the PC
-2240, 69, CPU Burst
-2309, 48, CPU Burst
-2357, 1, switch to kernel mode
-2358, 10, context saved
-2368, 1, find vector 4 in memory position 0x0008
-2369, 1, load address 0X0292 into the PC
-2370, 36, CPU Burst
-2406, 99, CPU Burst
-2505, 1, switch to kernel mode
-2506, 10, context saved
-2516, 1, find vector 18 in memory position 0x0024
-2517, 1, load address 0X060A into the PC
-2518, 56, CPU Burst
-2574, 61, CPU Burst
-2635, 1, switch to kernel mode
-2636, 10, context saved
-2646, 1, find vector 16 in memory position 0x0020
-2647, 1, load address 0X02DF into the PC
-2648, 35, CPU Burst
-2683, 54, CPU Burst
-2737, 1, switch to kernel mode
-2738, 10, context saved
-2748, 1, find vector 10 in memory position 0x0014
-2749, 1, load address 0X07B0 into the PC
-2750, 83, CPU Burst
-2833, 51, CPU Burst
-2884, 1, switch to kernel mode
-2885, 10, context saved
-2895, 1, find vector 11 in memory position 0x0016
-2896, 1, load address 0X01F8 into the PC
-2897, 85, CPU Burst
-2982, 48, CPU Burst
-3030, 1, switch to kernel mode
-3031, 10, context saved
-3041, 1, find vector 6 in memory position 0x000C
-3042, 1, load address 0X0639 into the PC
-3043, 58, CPU Burst
-3101, 21, CPU Burst
-3122, 1, switch to kernel mode
-3123, 10, context saved
-3133, 1, find vector 5 in memory position 0x000A
-3134, 1, load address 0X048B into the PC
-3135, 62, CPU Burst
-3197, 41, CPU Burst
-3238, 1, switch to kernel mode
-3239, 10, context saved
-3249, 1, find vector 4 in memory position 0x0008
-3250, 1, load address 0X0292 into the PC
-3251, 48, CPU Burst
-3299, 63, CPU Burst
+64, 1 SYSCALL: run the ISR for device 14
+65, 39, CPU Burst
+104, 72, CPU Burst
+176, 1, switch to kernel mode
+177, 10, context saved
+187, 1, find vector 19 in memory position 0x0026
+188, 1, load address 0X0765 into the PC
+189, 1 SYSCALL: run the ISR for device 19
+190, 28, CPU Burst
+218, 32, CPU Burst
+250, 1, switch to kernel mode
+251, 10, context saved
+261, 1, find vector 7 in memory position 0x000E
+262, 1, load address 0X00BD into the PC
+263, 1 SYSCALL: run the ISR for device 7
+264, 25, CPU Burst
+289, 11, CPU Burst
+300, 1, switch to kernel mode
+301, 10, context saved
+311, 1, find vector 16 in memory position 0x0020
+312, 1, load address 0X02DF into the PC
+313, 1 SYSCALL: run the ISR for device 16
+314, 54, CPU Burst
+368, 96, CPU Burst
+464, 1, switch to kernel mode
+465, 10, context saved
+475, 1, find vector 8 in memory position 0x0010
+476, 1, load address 0X06EF into the PC
+477, 1 SYSCALL: run the ISR for device 8
+478, 54, CPU Burst
+532, 77, CPU Burst
+609, 1, switch to kernel mode
+610, 10, context saved
+620, 1, find vector 11 in memory position 0x0016
+621, 1, load address 0X01F8 into the PC
+622, 1 SYSCALL: run the ISR for device 11
+623, 33, CPU Burst
+656, 60, CPU Burst
+716, 1, switch to kernel mode
+717, 10, context saved
+727, 1, find vector 16 in memory position 0x0020
+728, 1, load address 0X02DF into the PC
+729, 1 SYSCALL: run the ISR for device 16
+730, 21, CPU Burst
+751, 19, CPU Burst
+770, 1, switch to kernel mode
+771, 10, context saved
+781, 1, find vector 2 in memory position 0x0004
+782, 1, load address 0X0695 into the PC
+783, 1 SYSCALL: run the ISR for device 2
+784, 26, CPU Burst
+810, 38, CPU Burst
+848, 1, switch to kernel mode
+849, 10, context saved
+859, 1, find vector 16 in memory position 0x0020
+860, 1, load address 0X02DF into the PC
+861, 1 SYSCALL: run the ISR for device 16
+862, 28, CPU Burst
+890, 65, CPU Burst
+955, 1, switch to kernel mode
+956, 10, context saved
+966, 1, find vector 16 in memory position 0x0020
+967, 1, load address 0X02DF into the PC
+968, 1 SYSCALL: run the ISR for device 16
+969, 88, CPU Burst
+1057, 100, CPU Burst
+1157, 1, switch to kernel mode
+1158, 10, context saved
+1168, 1, find vector 17 in memory position 0x0022
+1169, 1, load address 0X05B3 into the PC
+1170, 1 SYSCALL: run the ISR for device 17
+1171, 28, CPU Burst
+1199, 25, CPU Burst
+1224, 1, switch to kernel mode
+1225, 10, context saved
+1235, 1, find vector 1 in memory position 0x0002
+1236, 1, load address 0X029C into the PC
+1237, 1 SYSCALL: run the ISR for device 1
+1238, 21, CPU Burst
+1259, 25, CPU Burst
+1284, 1, switch to kernel mode
+1285, 10, context saved
+1295, 1, find vector 19 in memory position 0x0026
+1296, 1, load address 0X0765 into the PC
+1297, 1 SYSCALL: run the ISR for device 19
+1298, 34, CPU Burst
+1332, 34, CPU Burst
+1366, 1, switch to kernel mode
+1367, 10, context saved
+1377, 1, find vector 8 in memory position 0x0010
+1378, 1, load address 0X06EF into the PC
+1379, 1 SYSCALL: run the ISR for device 8
+1380, 59, CPU Burst
+1439, 44, CPU Burst
+1483, 1, switch to kernel mode
+1484, 10, context saved
+1494, 1, find vector 15 in memory position 0x001E
+1495, 1, load address 0X0584 into the PC
+1496, 1 SYSCALL: run the ISR for device 15
+1497, 51, CPU Burst
+1548, 87, CPU Burst
+1635, 1, switch to kernel mode
+1636, 10, context saved
+1646, 1, find vector 11 in memory position 0x0016
+1647, 1, load address 0X01F8 into the PC
+1648, 1 SYSCALL: run the ISR for device 11
+1649, 65, CPU Burst
+1714, 48, CPU Burst
+1762, 1, switch to kernel mode
+1763, 10, context saved
+1773, 1, find vector 16 in memory position 0x0020
+1774, 1, load address 0X02DF into the PC
+1775, 1 SYSCALL: run the ISR for device 16
+1776, 51, CPU Burst
+1827, 37, CPU Burst
+1864, 1, switch to kernel mode
+1865, 10, context saved
+1875, 1, find vector 1 in memory position 0x0002
+1876, 1, load address 0X029C into the PC
+1877, 1 SYSCALL: run the ISR for device 1
+1878, 18, CPU Burst
+1896, 11, CPU Burst
+1907, 1, switch to kernel mode
+1908, 10, context saved
+1918, 1, find vector 2 in memory position 0x0004
+1919, 1, load address 0X0695 into the PC
+1920, 1 SYSCALL: run the ISR for device 2
+1921, 46, CPU Burst
+1967, 33, CPU Burst
+2000, 1, switch to kernel mode
+2001, 10, context saved
+2011, 1, find vector 12 in memory position 0x0018
+2012, 1, load address 0X03B9 into the PC
+2013, 1 SYSCALL: run the ISR for device 12
+2014, 75, CPU Burst
+2089, 88, CPU Burst
+2177, 1, switch to kernel mode
+2178, 10, context saved
+2188, 1, find vector 18 in memory position 0x0024
+2189, 1, load address 0X060A into the PC
+2190, 1 SYSCALL: run the ISR for device 18
+2191, 29, CPU Burst
+2220, 28, CPU Burst
+2248, 1, switch to kernel mode
+2249, 10, context saved
+2259, 1, find vector 1 in memory position 0x0002
+2260, 1, load address 0X029C into the PC
+2261, 1 SYSCALL: run the ISR for device 1
+2262, 69, CPU Burst
+2331, 48, CPU Burst
+2379, 1, switch to kernel mode
+2380, 10, context saved
+2390, 1, find vector 4 in memory position 0x0008
+2391, 1, load address 0X0292 into the PC
+2392, 1 SYSCALL: run the ISR for device 4
+2393, 36, CPU Burst
+2429, 99, CPU Burst
+2528, 1, switch to kernel mode
+2529, 10, context saved
+2539, 1, find vector 18 in memory position 0x0024
+2540, 1, load address 0X060A into the PC
+2541, 1 SYSCALL: run the ISR for device 18
+2542, 56, CPU Burst
+2598, 61, CPU Burst
+2659, 1, switch to kernel mode
+2660, 10, context saved
+2670, 1, find vector 16 in memory position 0x0020
+2671, 1, load address 0X02DF into the PC
+2672, 1 SYSCALL: run the ISR for device 16
+2673, 35, CPU Burst
+2708, 54, CPU Burst
+2762, 1, switch to kernel mode
+2763, 10, context saved
+2773, 1, find vector 10 in memory position 0x0014
+2774, 1, load address 0X07B0 into the PC
+2775, 1 SYSCALL: run the ISR for device 10
+2776, 83, CPU Burst
+2859, 51, CPU Burst
+2910, 1, switch to kernel mode
+2911, 10, context saved
+2921, 1, find vector 11 in memory position 0x0016
+2922, 1, load address 0X01F8 into the PC
+2923, 1 SYSCALL: run the ISR for device 11
+2924, 85, CPU Burst
+3009, 48, CPU Burst
+3057, 1, switch to kernel mode
+3058, 10, context saved
+3068, 1, find vector 6 in memory position 0x000C
+3069, 1, load address 0X0639 into the PC
+3070, 1 SYSCALL: run the ISR for device 6
+3071, 58, CPU Burst
+3129, 21, CPU Burst
+3150, 1, switch to kernel mode
+3151, 10, context saved
+3161, 1, find vector 5 in memory position 0x000A
+3162, 1, load address 0X048B into the PC
+3163, 1 SYSCALL: run the ISR for device 5
+3164, 62, CPU Burst
+3226, 41, CPU Burst
+3267, 1, switch to kernel mode
+3268, 10, context saved
+3278, 1, find vector 4 in memory position 0x0008
+3279, 1, load address 0X0292 into the PC
+3280, 1 SYSCALL: run the ISR for device 4
+3281, 48, CPU Burst
+3329, 63, CPU Burst

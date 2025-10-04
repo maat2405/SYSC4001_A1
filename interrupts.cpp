@@ -24,7 +24,8 @@ int main(int argc, char** argv) {
     /******************ADD YOUR VARIABLES HERE*************************/
 
     int simulation_time = 0; // this is the total duration of the sim
-    int context_time = 10; // context
+    const int context_time = 10; // context
+    const int isr_time = 1; // isr
 
     /******************************************************************/
 
@@ -45,7 +46,11 @@ int main(int argc, char** argv) {
             execution += execution_temp;
             simulation_time = simulation_time_temp;
 
+            execution += std::to_string(simulation_time) + ", " + std::to_string(isr_time) + " SYSCALL: run the ISR for device " + std::to_string(duration_intr) + "\n";
+            simulation_time += isr_time;
+
             
+
         }
 
         /************************************************************************/
