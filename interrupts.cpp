@@ -46,16 +46,16 @@ int main(int argc, char** argv) {
             execution += execution_temp;
             simulation_time = simulation_time_temp;
 
-            execution += std::to_string(simulation_time) + ", " + std::to_string(delays[duration_intr]) + " SYSCALL: run the ISR for device " + std::to_string(duration_intr) + "\n";
+            execution += std::to_string(simulation_time) + ", " + std::to_string(delays[duration_intr]) + ", " + "SYSCALL: run the ISR for device " + std::to_string(duration_intr) + "\n";
             simulation_time += delays[duration_intr];
 
-            execution += std::to_string(simulation_time) + ", " + std::to_string(isr_time) + " transfer data from device to memory\n";
+            execution += std::to_string(simulation_time) + ", " + std::to_string(isr_time) + ", " + "transfer data from device to memory\n";
             simulation_time += isr_time;
 
-            execution += std::to_string(simulation_time) + ", " + std::to_string(isr_time) + " check for errors\n";
+            execution += std::to_string(simulation_time) + ", " + std::to_string(isr_time) + ", " + "check for errors\n";
             simulation_time += isr_time;
 
-            execution += std::to_string(simulation_time) + ", " + std::to_string(1) + " IRET\n";
+            execution += std::to_string(simulation_time) + ", " + std::to_string(1) + ", " + "IRET\n";
             simulation_time++;
 
         }
@@ -65,10 +65,15 @@ int main(int argc, char** argv) {
             execution += execution_temp;
             simulation_time = simulation_time_temp;
 
-            execution += std::to_string(simulation_time) + ", " + std::to_string(delays[duration_intr]) + " END I/O\n";
+            execution += std::to_string(simulation_time) + ", " + std::to_string(delays[duration_intr]) + ", " + "END I/O\n";
             simulation_time += delays[duration_intr];
 
-            execution += std::to_string(simulation_time) + ", " + std::to_string(1) + "IRET\n";
+            execution += std::to_string(simulation_time) + ", " + std::to_string(1) + ", " + "IRET\n";
+            simulation_time++;
+        }
+
+        else if (activity == "UNKOWN_ACTIVITY") {
+            execution += std::to_string(simulation_time) + ", " + std::to_string(1) + ", " + "Unknown Activity\n";
             simulation_time++;
         }
 
