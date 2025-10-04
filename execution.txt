@@ -1,0 +1,181 @@
+0, 51, CPU Burst
+51, 1, switch to kernel mode
+52, 10, context saved
+62, 1, find vector 14 in memory position 0x001C
+63, 1, load address 0X0165 into the PC
+64, 39, CPU Burst
+103, 72, CPU Burst
+175, 1, switch to kernel mode
+176, 10, context saved
+186, 1, find vector 19 in memory position 0x0026
+187, 1, load address 0X0765 into the PC
+188, 28, CPU Burst
+216, 32, CPU Burst
+248, 1, switch to kernel mode
+249, 10, context saved
+259, 1, find vector 7 in memory position 0x000E
+260, 1, load address 0X00BD into the PC
+261, 25, CPU Burst
+286, 11, CPU Burst
+297, 1, switch to kernel mode
+298, 10, context saved
+308, 1, find vector 16 in memory position 0x0020
+309, 1, load address 0X02DF into the PC
+310, 54, CPU Burst
+364, 96, CPU Burst
+460, 1, switch to kernel mode
+461, 10, context saved
+471, 1, find vector 8 in memory position 0x0010
+472, 1, load address 0X06EF into the PC
+473, 54, CPU Burst
+527, 77, CPU Burst
+604, 1, switch to kernel mode
+605, 10, context saved
+615, 1, find vector 11 in memory position 0x0016
+616, 1, load address 0X01F8 into the PC
+617, 33, CPU Burst
+650, 60, CPU Burst
+710, 1, switch to kernel mode
+711, 10, context saved
+721, 1, find vector 16 in memory position 0x0020
+722, 1, load address 0X02DF into the PC
+723, 21, CPU Burst
+744, 19, CPU Burst
+763, 1, switch to kernel mode
+764, 10, context saved
+774, 1, find vector 2 in memory position 0x0004
+775, 1, load address 0X0695 into the PC
+776, 26, CPU Burst
+802, 38, CPU Burst
+840, 1, switch to kernel mode
+841, 10, context saved
+851, 1, find vector 16 in memory position 0x0020
+852, 1, load address 0X02DF into the PC
+853, 28, CPU Burst
+881, 65, CPU Burst
+946, 1, switch to kernel mode
+947, 10, context saved
+957, 1, find vector 16 in memory position 0x0020
+958, 1, load address 0X02DF into the PC
+959, 88, CPU Burst
+1047, 100, CPU Burst
+1147, 1, switch to kernel mode
+1148, 10, context saved
+1158, 1, find vector 17 in memory position 0x0022
+1159, 1, load address 0X05B3 into the PC
+1160, 28, CPU Burst
+1188, 25, CPU Burst
+1213, 1, switch to kernel mode
+1214, 10, context saved
+1224, 1, find vector 1 in memory position 0x0002
+1225, 1, load address 0X029C into the PC
+1226, 21, CPU Burst
+1247, 25, CPU Burst
+1272, 1, switch to kernel mode
+1273, 10, context saved
+1283, 1, find vector 19 in memory position 0x0026
+1284, 1, load address 0X0765 into the PC
+1285, 34, CPU Burst
+1319, 34, CPU Burst
+1353, 1, switch to kernel mode
+1354, 10, context saved
+1364, 1, find vector 8 in memory position 0x0010
+1365, 1, load address 0X06EF into the PC
+1366, 59, CPU Burst
+1425, 44, CPU Burst
+1469, 1, switch to kernel mode
+1470, 10, context saved
+1480, 1, find vector 15 in memory position 0x001E
+1481, 1, load address 0X0584 into the PC
+1482, 51, CPU Burst
+1533, 87, CPU Burst
+1620, 1, switch to kernel mode
+1621, 10, context saved
+1631, 1, find vector 11 in memory position 0x0016
+1632, 1, load address 0X01F8 into the PC
+1633, 65, CPU Burst
+1698, 48, CPU Burst
+1746, 1, switch to kernel mode
+1747, 10, context saved
+1757, 1, find vector 16 in memory position 0x0020
+1758, 1, load address 0X02DF into the PC
+1759, 51, CPU Burst
+1810, 37, CPU Burst
+1847, 1, switch to kernel mode
+1848, 10, context saved
+1858, 1, find vector 1 in memory position 0x0002
+1859, 1, load address 0X029C into the PC
+1860, 18, CPU Burst
+1878, 11, CPU Burst
+1889, 1, switch to kernel mode
+1890, 10, context saved
+1900, 1, find vector 2 in memory position 0x0004
+1901, 1, load address 0X0695 into the PC
+1902, 46, CPU Burst
+1948, 33, CPU Burst
+1981, 1, switch to kernel mode
+1982, 10, context saved
+1992, 1, find vector 12 in memory position 0x0018
+1993, 1, load address 0X03B9 into the PC
+1994, 75, CPU Burst
+2069, 88, CPU Burst
+2157, 1, switch to kernel mode
+2158, 10, context saved
+2168, 1, find vector 18 in memory position 0x0024
+2169, 1, load address 0X060A into the PC
+2170, 29, CPU Burst
+2199, 28, CPU Burst
+2227, 1, switch to kernel mode
+2228, 10, context saved
+2238, 1, find vector 1 in memory position 0x0002
+2239, 1, load address 0X029C into the PC
+2240, 69, CPU Burst
+2309, 48, CPU Burst
+2357, 1, switch to kernel mode
+2358, 10, context saved
+2368, 1, find vector 4 in memory position 0x0008
+2369, 1, load address 0X0292 into the PC
+2370, 36, CPU Burst
+2406, 99, CPU Burst
+2505, 1, switch to kernel mode
+2506, 10, context saved
+2516, 1, find vector 18 in memory position 0x0024
+2517, 1, load address 0X060A into the PC
+2518, 56, CPU Burst
+2574, 61, CPU Burst
+2635, 1, switch to kernel mode
+2636, 10, context saved
+2646, 1, find vector 16 in memory position 0x0020
+2647, 1, load address 0X02DF into the PC
+2648, 35, CPU Burst
+2683, 54, CPU Burst
+2737, 1, switch to kernel mode
+2738, 10, context saved
+2748, 1, find vector 10 in memory position 0x0014
+2749, 1, load address 0X07B0 into the PC
+2750, 83, CPU Burst
+2833, 51, CPU Burst
+2884, 1, switch to kernel mode
+2885, 10, context saved
+2895, 1, find vector 11 in memory position 0x0016
+2896, 1, load address 0X01F8 into the PC
+2897, 85, CPU Burst
+2982, 48, CPU Burst
+3030, 1, switch to kernel mode
+3031, 10, context saved
+3041, 1, find vector 6 in memory position 0x000C
+3042, 1, load address 0X0639 into the PC
+3043, 58, CPU Burst
+3101, 21, CPU Burst
+3122, 1, switch to kernel mode
+3123, 10, context saved
+3133, 1, find vector 5 in memory position 0x000A
+3134, 1, load address 0X048B into the PC
+3135, 62, CPU Burst
+3197, 41, CPU Burst
+3238, 1, switch to kernel mode
+3239, 10, context saved
+3249, 1, find vector 4 in memory position 0x0008
+3250, 1, load address 0X0292 into the PC
+3251, 48, CPU Burst
+3299, 63, CPU Burst
