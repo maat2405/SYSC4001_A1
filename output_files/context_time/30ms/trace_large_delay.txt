@@ -1,0 +1,17 @@
+0, 20, CPU Burst
+20, 1, switch to kernel mode
+21, 30, context saved
+51, 1, find vector 12 in memory position 0x0018
+52, 1, load address 0X03B9 into the PC
+53, 145, SYSCALL: run the ISR for device 12
+198, 40, transfer data from device to memory
+238, 40, check for errors
+278, 1, IRET
+279, 50, CPU Burst
+329, 1, switch to kernel mode
+330, 30, context saved
+360, 1, find vector 12 in memory position 0x0018
+361, 1, load address 0X03B9 into the PC
+362, 145, END I/O
+507, 1, IRET
+508, 20, CPU Burst

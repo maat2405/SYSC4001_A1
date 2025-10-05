@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
 
     int simulation_time = 0; // this is the total duration of the sim
     const int context_time = 10; // context
-    const int isr_time = 40; // isr
+    const int isr_time = 200; // isr
 
     /******************************************************************/
 

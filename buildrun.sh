@@ -4,4 +4,4 @@ else
 	rm bin/*
 fi
 g++ -g -O0 -I . -o bin/interrupts interrupts.cpp
-./bin/interrupts trace.txt vector_table.txt device_table.txt
+./bin/interrupts ./input_files/trace_overlap.txt vector_table.txt device_table.txt
